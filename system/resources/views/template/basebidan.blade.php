@@ -21,30 +21,24 @@
 
 <body>
   <!-- Sidenav -->
-@include('template.section.sidebar')
+@include('template.section.sidebarbidan')
   <!-- Main content -->
   <div class="main-content" id="panel">
     <!-- Topnav -->
-   @include('template.section.header')
+   @include('template.section.headerbidan')
     <!-- Header -->
     <!-- Header -->
     <div class="header bg-primary pb-6">
       <div class="container-fluid">
         <div class="header-body">
-          <div class="container">
+         <div class="container">
            <div class="row">
              <div class="col-md-12">
                @include('template.utils.notif')
              </div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                @yield('content')
-              </div>
-            </div>
-          </div>
+           </div>
+         </div>
+          @yield('content')
         </div>
       </div>
     </div>

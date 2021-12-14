@@ -64,6 +64,10 @@ return [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
         ],
+        'bidan' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Bidan::class,
+        ],
 
         // 'users' => [
         //     'driver' => 'database',

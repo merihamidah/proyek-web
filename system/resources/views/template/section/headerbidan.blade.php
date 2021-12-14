@@ -80,7 +80,7 @@
                 <div class="dropdown-header noti-title">
                   <h6 class="text-overflow m-0">Selamat Datang</h6>
                 </div>
-                <a href="{{url('profilsaya')}}" class="dropdown-item">
+                <a href="{{url('profil_saya')}}" class="dropdown-item">
                   <i class="ni ni-single-02"></i>
                   <span>Profil Saya</span>
                 </a>
